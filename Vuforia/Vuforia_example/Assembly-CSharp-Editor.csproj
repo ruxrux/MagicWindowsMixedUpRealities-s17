@@ -72,7 +72,7 @@
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\StreamingAssets\QCAR\testbalbal.xml" />
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/Vuforia_example/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/Vuforia/Vuforia_example/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/CODE/Unity 5.5.0/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
@@ -129,10 +129,10 @@
  <HintPath>/Applications/CODE/Unity 5.5.0/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/Vuforia_example/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/Vuforia/Vuforia_example/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/Vuforia_example/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/Vuforia/Vuforia_example/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/CODE/Unity 5.5.0/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>

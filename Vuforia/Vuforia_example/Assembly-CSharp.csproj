@@ -140,7 +140,7 @@
  <HintPath>/Applications/CODE/Unity 5.5.0/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/Vuforia_example/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/Vuforia/Vuforia_example/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
