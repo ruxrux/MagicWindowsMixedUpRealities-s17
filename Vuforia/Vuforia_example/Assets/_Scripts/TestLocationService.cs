@@ -8,11 +8,11 @@ public class TestLocationService : MonoBehaviour
 	public Text info;
 	private string debug;
 	private bool bHasService = false;
-
+	public double pLat, pLon;
 	IEnumerator Start()
 	{
 		// First, check if user has location service enabled
-		if (!Input.location.isEnabledByUser) {
+		if (Input.location.isEnabledByUser == false) {
 			debug = "Loc disabled";
 			//Debug.Log (debug);
 			info.text = debug;
@@ -73,6 +73,9 @@ public class TestLocationService : MonoBehaviour
 			debug = ".: Location :. \nLat .: " + Input.location.lastData.latitude + "\nLon .: " + Input.location.lastData.longitude + "\nTiS .: " + Input.location.lastData.timestamp;
 			//Debug.Log (debug);
 			info.text = debug;
+			pLat = Input.location.lastData.latitude;
+			pLon = Input.location.lastData.longitude;
+
 		}
 	}
 

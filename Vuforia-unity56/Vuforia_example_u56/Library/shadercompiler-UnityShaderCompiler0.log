@@ -1,5 +1,5 @@
-Base path: /Applications/CODE/Unity 5.5.0/Unity.app/Contents
-Cmd: getPlatforms
+Base path: /Applications/CODE/Unity 5.6.0/Unity 5.6.0.app/Contents
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=665 outsize=665 ok=1
 Cmd: preprocess

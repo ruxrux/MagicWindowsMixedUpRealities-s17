@@ -1,11 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{5513D90D-DB43-0166-A02B-5B4855A3B756}") = "Vuforia_example_u56", "Assembly-CSharp-firstpass.csproj", "{35B4BD4C-847C-481A-1D8E-30F168B3D464}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuforia_example_u56", "Assembly-CSharp-firstpass.csproj", "{35B4BD4C-847C-481A-1D8E-30F168B3D464}"
 EndProject
-Project("{5513D90D-DB43-0166-A02B-5B4855A3B756}") = "Vuforia_example_u56", "Assembly-CSharp.csproj", "{6D3A5CE2-75DC-2267-489F-56E14671F2A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuforia_example_u56", "Assembly-CSharp.csproj", "{6D3A5CE2-75DC-2267-489F-56E14671F2A1}"
 EndProject
-Project("{5513D90D-DB43-0166-A02B-5B4855A3B756}") = "Vuforia_example_u56", "Assembly-CSharp-Editor.csproj", "{DD8F37B9-85FD-1A2E-2F8F-F23558390960}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuforia_example_u56", "Assembly-CSharp-Editor.csproj", "{DD8F37B9-85FD-1A2E-2F8F-F23558390960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
