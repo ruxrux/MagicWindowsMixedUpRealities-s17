@@ -28,7 +28,7 @@ public class TestLocationService : MonoBehaviour
 		info.text = debug;
 
 		// Wait until service initializes / if times out try longer times
-		int maxWait = 2;
+		int maxWait = 10;
 		while (Input.location.status == LocationServiceStatus.Initializing && maxWait > 0)
 		{
 			yield return new WaitForSeconds(1);

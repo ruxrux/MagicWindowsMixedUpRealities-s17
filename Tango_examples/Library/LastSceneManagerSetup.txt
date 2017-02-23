@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/MotionTracking101.unity
+- path: Assets/_Scenes/superSimpleAR.unity
   isLoaded: 1
   isActive: 1

@@ -133,7 +133,10 @@
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\Listeners\UxExceptionEventListener.cs" />
      <Compile Include="Assets\TangoSDK\TangoUX\Scripts\TangoUx.cs" />
      <Compile Include="Assets\_Scripts\RaycastLook.cs" />
+     <Compile Include="Assets\_Scripts\RotateAndPlaySound.cs" />
      <Compile Include="Assets\_Scripts\animate.cs" />
+     <Compile Include="Assets\_Scripts\objectUIController.cs" />
+     <Compile Include="Assets\_Scripts\rotate_self.cs" />
      <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\ZTestBlur.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingStandard.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\PointCloud.shader" />
