@@ -137,6 +137,7 @@
      <Compile Include="Assets\_Scripts\animate.cs" />
      <Compile Include="Assets\_Scripts\objectUIController.cs" />
      <Compile Include="Assets\_Scripts\rotate_self.cs" />
+     <Compile Include="Assets\_Scripts\soundPlayer.cs" />
      <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\ZTestBlur.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingStandard.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\PointCloud.shader" />

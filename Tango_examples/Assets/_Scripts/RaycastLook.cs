@@ -7,8 +7,8 @@ using UnityEngine;
 public class RaycastLook : MonoBehaviour {
 
 	public Transform origin;		// public var to get the ray's origin  
-	private float rayReach = 3.0f; // the length of the ray 
-
+	public float rayReach = 1.0f; // the length of the ray 
+	public string fName;
 	// Update is called once per frame
 	void Update () {
 		// var to store the  hit object's info
@@ -23,7 +23,7 @@ public class RaycastLook : MonoBehaviour {
 				//Debug.Log (hit.collider.tag);
 
 				// find the object and call its Animate() function
-				GameObject.Find (hit.collider.name).SendMessage ("Animate");
+				GameObject.Find (hit.collider.name).SendMessage (fName);
 
 				// https://docs.unity3d.com/ScriptReference/GameObject.SendMessage.html
 				// if the  object's function you're calling has parameters < e.g. void Animate(float speed) > 

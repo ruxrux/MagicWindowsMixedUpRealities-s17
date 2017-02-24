@@ -5,7 +5,7 @@ using UnityEngine;
 public class objectUIController : MonoBehaviour {
 
 	// public for our objects
-	public GameObject myObject;
+	public GameObject [] myObject;
 	private TangoPointCloud pointCloud;
 
 
@@ -34,6 +34,7 @@ public class objectUIController : MonoBehaviour {
 	void PlaceObject(Vector2 _touchPos){
 
 		// Find the plane
+
 		Camera cam = Camera.main;
 		// vector3 for the plance center pos
 		Vector3 planeCenter;
@@ -47,18 +48,18 @@ public class objectUIController : MonoBehaviour {
 
 		// if it has found a plane, now we can use it to place our object
 		// first make sure the plane isnt at a steep angle
-		if (Vector3.Angle (plane.normal, Vector3.up) < 30.0f) {
+//		if (Vector3.Angle (plane.normal, Vector3.up) < 30.0f) {
 
-			// find up, right and forward
-			Vector3 up = plane.normal;
-			Vector3 right = Vector3.Cross (plane.normal, cam.transform.forward).normalized;
-			Vector3 forward = Vector3.Cross (right, plane.normal).normalized;
+		// find up, right and forward
+		Vector3 up = plane.normal;
+		Vector3 right = Vector3.Cross (plane.normal, cam.transform.forward).normalized;
+		Vector3 forward = Vector3.Cross (right, plane.normal).normalized;
 
 			// add, Instantiate our object on the scene 
-			Instantiate (myObject, planeCenter, Quaternion.LookRotation (forward, up));
-		} else {
-			Debug.Log ("surface is too steep");
-		}
+		Instantiate (myObject[Random.Range(0,myObject.Length)], planeCenter, Quaternion.LookRotation (forward, up));
+//		} else {
+//			Debug.Log ("surface is too steep");
+//		}
 
 
 	}
