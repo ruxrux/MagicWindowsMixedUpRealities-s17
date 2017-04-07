@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/objectUIController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TangoSDK/Examples/AreaLearning/Scripts/AreaLearningInGameController.cs">
     <Files>
-      <File FileName="Assets/_Scripts/animate.cs" Line="10" Column="3" />
-      <File FileName="Assets/_Scripts/RaycastLook.cs" Line="26" Column="56" />
+      <File FileName="Assets/TangoPrefabs/Scripts/TangoARPoseController.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/animate.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/RaycastLook.cs" Line="1" Column="1" />
       <File FileName="Assets/_Scripts/objectUIController.cs" Line="44" Column="27" />
       <File FileName="Assets/TangoPrefabs/Scripts/ARCameraPostProcess.cs" Line="1" Column="1" />
       <File FileName="Assets/TangoPrefabs/Shaders/PointCloud_Occlusion.shader" Line="1" Column="1" />
-      <File FileName="Assets/TangoPrefabs/Scripts/TangoPointCloud.cs" Line="412" Column="5" />
+      <File FileName="Assets/TangoPrefabs/Scripts/TangoPointCloud.cs" Line="1" Column="1" />
       <File FileName="Assets/_Scripts/RotateAndPlaySound.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/soundPlayer.cs" Line="9" Column="2" />
+      <File FileName="Assets/_Scripts/soundPlayer.cs" Line="1" Column="1" />
       <File FileName="Assets/TangoPrefabs/Scripts/TangoARScreen.cs" Line="1" Column="1" />
       <File FileName="Assets/TangoSDK/Examples/AreaLearning/Scripts/AreaLearningInGameController.cs" Line="1" Column="1" />
       <File FileName="Assets/TangoSDK/Examples/AugmentedReality/Scripts/ARMarker.cs" Line="1" Column="1" />

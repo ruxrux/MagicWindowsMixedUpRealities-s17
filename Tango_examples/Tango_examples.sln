@@ -1,9 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{FB2E8290-00B9-3B58-617E-7759A630AE39}") = "Tango_examples", "Assembly-CSharp.csproj", "{61E451B3-D53B-7ED5-3C84-0CF4E9E32819}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tango_examples", "Assembly-CSharp.csproj", "{61E451B3-D53B-7ED5-3C84-0CF4E9E32819}"
 EndProject
-Project("{FB2E8290-00B9-3B58-617E-7759A630AE39}") = "Tango_examples", "Assembly-CSharp-Editor.csproj", "{70F7AC82-E814-B591-C49C-E130283972D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tango_examples", "Assembly-CSharp-Editor.csproj", "{70F7AC82-E814-B591-C49C-E130283972D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
