@@ -140,10 +140,10 @@
  <HintPath>/Applications/CODE/Unity 2017.1.1/Unity 2017.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/wip/imgTargets/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/week04/imgTargets/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/wip/imgTargets/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/week04/imgTargets/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/CODE/Unity 2017.1.1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

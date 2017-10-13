@@ -125,7 +125,7 @@
  <HintPath>/Applications/CODE/Unity 2017.1.1/Unity 2017.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/wip/imgTargets/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/ruipereira/Documents/MWMUR/-=Code=-/MagicWindowsMixedUpRealities/week04/imgTargets/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
