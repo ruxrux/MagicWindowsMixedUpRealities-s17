@@ -50,7 +50,9 @@ public class TargetStatus : MonoBehaviour {
 			if ( trackable.TrackableName == "chips" ) {
 				if (trackable.CurrentStatus == TrackableBehaviour.Status.TRACKED) {
 					bTarget1 = true;
-					PosTarget1 = trackable.transform.position;					
+					PosTarget1 = trackable.transform.position;
+
+
 				} else {
 					bTarget1 = false;
 				}
@@ -59,7 +61,14 @@ public class TargetStatus : MonoBehaviour {
 			if ( trackable.TrackableName == "tarmac" ) {
 				if ( trackable.CurrentStatus == TrackableBehaviour.Status.TRACKED ) {
 					bTarget2 = true;
-					PosTarget2 = trackable.transform.position;					
+					PosTarget2 = trackable.transform.position;	
+
+					// more on Finding objects by name and especially important by tag!
+					// https://docs.unity3d.com/ScriptReference/GameObject.Find.html
+					// more on SendMessage :
+					// https://docs.unity3d.com/ScriptReference/GameObject.SendMessage.html
+					GameObject.Find ("Cube").SendMessage("rotate", 2.0f);
+
 				} else {
 					bTarget2 = false;
 				}
