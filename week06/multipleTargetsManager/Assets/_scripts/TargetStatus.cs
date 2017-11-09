@@ -68,7 +68,7 @@ public class TargetStatus : MonoBehaviour {
 					// more on SendMessage :
 					// https://docs.unity3d.com/ScriptReference/GameObject.SendMessage.html
 					GameObject.Find ("Cube").SendMessage("rotate", 2.0f);
-
+					GameObject.FindGameObjectWithTag ("cubecube").SendMessage ("rotate", 2.0f);
 				} else {
 					bTarget2 = false;
 				}
