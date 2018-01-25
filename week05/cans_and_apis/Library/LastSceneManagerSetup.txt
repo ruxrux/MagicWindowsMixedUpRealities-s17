@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/_scenes/Can_detection.unity
-  isLoaded: 1
-  isActive: 1
