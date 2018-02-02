@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageTarget", "Assembly-CSharp.csproj", "{C12E4057-5D88-76D8-6B55-B0FECC414156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageTarget", "Assembly-CSharp-Editor.csproj", "{DAC22088-704B-DBAC-A1AA-31418CCF1DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C12E4057-5D88-76D8-6B55-B0FECC414156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12E4057-5D88-76D8-6B55-B0FECC414156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12E4057-5D88-76D8-6B55-B0FECC414156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12E4057-5D88-76D8-6B55-B0FECC414156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC22088-704B-DBAC-A1AA-31418CCF1DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC22088-704B-DBAC-A1AA-31418CCF1DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC22088-704B-DBAC-A1AA-31418CCF1DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC22088-704B-DBAC-A1AA-31418CCF1DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
