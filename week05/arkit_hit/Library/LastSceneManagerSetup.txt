@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_scenes/ARKIT_init.unity
+  isLoaded: 1
+  isActive: 1
